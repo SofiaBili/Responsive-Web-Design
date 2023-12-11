@@ -1,0 +1,49 @@
+html,body {
+	width:100%;
+    margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.inp,#dropdown,#feature{
+	width:100%;
+}
+.p-top{
+    margin-top: 0;
+}
+.p-name,h1{
+    margin-bottom: 0;
+}
+select {
+    border:1px solid #ccc;
+    vertical-align:top;
+    height:20px;
+}
+
+.titles {
+    text-align:center;
+}
+body {
+    display:table;
+	color:white;
+	background-color: rgb(128, 97, 181);
+}
+.container{
+	display:table-cell;
+    vertical-align:middle;
+}
+textarea{
+	width: 100%;
+	height: 100px;
+}
+button{
+	width: 102%;
+	background-color: rgb(179, 183, 240)
+}
+form { 
+	display:table;
+	margin:auto;
+	padding: 30px 30px 10px 20px;
+	background-color: rgba(0, 0, 0, 0.377);
+}
+i{
+	font-size: 14px;
+}
