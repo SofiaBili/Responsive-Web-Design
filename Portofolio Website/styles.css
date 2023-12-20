@@ -1,0 +1,41 @@
+@media screen and (max-width: 800px) {
+}
+
+body{    
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+	background-color: rgb(72, 87, 82);
+	display: flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	justify-content: flex-end;
+}
+#navbar a{
+	display:block;
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 20px;
+  	color: #ffffff;
+}
+
+#navbar ul{
+    list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#navbar li{
+	float:left;
+}
+
+.welcome-section{
+	background-color: rgb(217, 187, 254);
+	display:block;
+	text-align: center;
+	font-size: 30px;
+	padding: 270px 60px;
+}

@@ -1,0 +1,67 @@
+#navbar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 100%;
+    height: 60px;
+	  text-align: center;
+    position: relative;
+  }
+  #navbar a {
+    float: left;
+  }
+  #main-doc {
+    margin-left:0px;
+    padding: 0px;
+    height: 40%;
+  }
+  nav li {
+    width: 100%;
+    text-align: center;
+    display: inline;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  #navbar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+#main-doc {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 100%;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  margin-right: 20px;
+	padding: 4px 0px;
+}
+
+nav a {
+  color: rgb(0, 0, 0); /* Change this color as needed */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #506ac2; /* Change this color as needed */
+}
