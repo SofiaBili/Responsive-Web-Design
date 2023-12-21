@@ -143,24 +143,39 @@ h2{
 	justify-content: space-between;
 	width: 100%; /* Take up the full width */
 	margin-bottom: 50px;
-  }
-  
-  .icon {
+}
+
+.icon {
 	font-size: 20px;
 	width: 20%; /* Take up the full width */
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	margin: 10px;
-	color: rgb(98, 128, 97);
-  }
-  
-  .desc {
+	color: rgb(128, 125, 97);
+}
+
+.desc {
 	text-align: left;
 	width: 70%; /* Take up the full width */
 	margin: 10px;
-  }
+}
+.desc h2 {
+	text-align: left;
+}
+/* video */
 
+#how-it-works {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+  }
+  
+  #how-it-works iframe {
+	width: 80%; /* Adjust the width percentage as needed */
+	height: 300px; /* Set a specific height value */
+	max-width: 100%; /* Ensure the iframe doesn't exceed its natural size */
+  }
 
 /* footer */
 footer {
