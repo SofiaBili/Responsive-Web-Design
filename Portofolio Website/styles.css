@@ -59,7 +59,7 @@ body{
   }
   
 .card {
-	background-color: rgb(243, 214, 184);
+	background-color: #cdbfaf;
 	flex: 0 1 calc(33.333% - 16px); /* Adjust the percentage as needed */
 	box-sizing: border-box;
 	text-align: center; /* Center text horizontally within the card */
