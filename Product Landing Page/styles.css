@@ -105,7 +105,7 @@ main{
 	flex-direction: column;
 	align-items: center;
 }
-h2{
+.form h2{
 	text-align: center;
 }
 #email {
@@ -152,7 +152,7 @@ h2{
 	align-items: center;
 	justify-content: space-around;
 	margin: 10px;
-	color: rgb(128, 125, 97);
+	color: rgb(128, 113, 97);
 }
 
 .desc {
@@ -169,14 +169,59 @@ h2{
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 50px;
+}
+  
+#how-it-works iframe {
+	width: 600px; /* Adjust the width percentage as needed */
+	height: 350px; /* Set a specific height value */
+}
+
+/* pricing */
+.pricing {
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 30px;
+	flex-wrap: wrap; /* Allow products to wrap onto the next line */
   }
   
-  #how-it-works iframe {
-	width: 80%; /* Adjust the width percentage as needed */
-	height: 300px; /* Set a specific height value */
-	max-width: 100%; /* Ensure the iframe doesn't exceed its natural size */
+  .product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: #e7dcdc solid 3px;
+	width: 300px;
+	margin: 10px; /* Add margin for spacing between products */
   }
-
+  
+  .product .level {
+	padding: 10px 0;
+	background-color: rgb(128, 113, 97);
+	width: 100%;
+	text-align: center;
+  }
+  
+  .product ol {
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+  }
+  
+  .btn {
+	border: 0;
+	margin: 10px 0;
+	background-color: #d1c48e;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 10px;
+	font-weight: bold;
+  }
+  
+  .btn:hover {
+	background-color: rgb(153, 140, 115);
+	transition: background-color 1s;
+	cursor: pointer;
+  }
 /* footer */
 footer {
 	position: relative;
